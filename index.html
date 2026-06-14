@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html# -->
+<html lang="sv" class="lenis"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Takhub Bygg AB — Takläggare i Norsborg, Stockholm</title>
+<meta name="description" content="Takhub Bygg AB — takläggare i Norsborg, Stockholm. Takomläggning, takbyte och reparation. Fem år på byggarbetsplatser, 10 års garanti, ROT-avdrag.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 32 32&#39;%3E%3Crect width=&#39;32&#39; height=&#39;32&#39; rx=&#39;6&#39; fill=&#39;%2315181C&#39;/%3E%3Cpath d=&#39;M6 18 16 9l10 9&#39; fill=&#39;none&#39; stroke=&#39;%234E7E6C&#39; stroke-width=&#39;2.3&#39; stroke-linecap=&#39;round&#39; stroke-linejoin=&#39;round&#39;/%3E%3Cpath d=&#39;M9 18v6h14v-6&#39; fill=&#39;none&#39; stroke=&#39;%234E7E6C&#39; stroke-width=&#39;2.3&#39; stroke-linejoin=&#39;round&#39;/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Takhub Bygg AB — Takläggare i Stockholm">
+<meta property="og:description" content="Takomläggning och takbyte i Norsborg, Stockholm. Fem år på byggarbetsplatser, 10 års garanti, ROT-avdrag.">
+<meta property="og:image" content="images/roof-chalet.jpg">
+<meta property="og:locale" content="sv_SE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./index_files/css2" rel="stylesheet">
+<style>
+:root{
+  --ink:#15181C;--ink-2:#1C2127;--paper:#F4F3EF;--paper-2:#EBE9E3;
+  --tx:#262A2E;--tx-mute:#787E86;--tl:#ECE9E2;--tl-mute:#9DA39D;
+  --accent:#4E7E6C;--accent-deep:#37594B;--accent-light:#94B7A8;
+  --line-l:rgba(21,24,28,.11);--line-d:rgba(255,255,255,.14);--r:4px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:auto;overflow-x:hidden}
+body{font-family:'Inter',sans-serif;background:var(--paper);color:var(--tx);font-size:16px;line-height:1.7;font-weight:300;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+::selection{background:var(--accent);color:#fff}
+.dsp{font-family:'Archivo',sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:0 48px}
+.eyebrow{display:inline-flex;align-items:center;gap:13px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:500;letter-spacing:.24em;text-transform:uppercase}
+.eyebrow::before{content:'';width:28px;height:1px;background:currentColor;opacity:.55}
+
+#prog{position:fixed;top:0;left:0;height:2px;background:var(--accent);z-index:300;transform-origin:left;transform:scaleX(0)}
+
+/* CUSTOM CURSOR */
+#cdot,#cring,#cglow{pointer-events:none;position:fixed;left:0;top:0;z-index:9999;will-change:transform}
+#cdot{width:7px;height:7px;margin:-3.5px 0 0 -3.5px;border-radius:50%;background:var(--accent)}
+#cring{width:36px;height:36px;margin:-18px 0 0 -18px;border:1.5px solid var(--accent);border-radius:50%;opacity:.55;transition:width .25s,height .25s,margin .25s,background .25s,opacity .25s}
+#cring.big{width:62px;height:62px;margin:-31px 0 0 -31px;background:rgba(78,126,108,.08);opacity:.85}
+#cglow{z-index:120;width:480px;height:480px;margin:-240px 0 0 -240px;border-radius:50%;background:radial-gradient(circle,rgba(148,183,168,.20),transparent 62%);mix-blend-mode:screen}
+@media(pointer:fine){body.cursor-on{cursor:none}body.cursor-on a,body.cursor-on button,body.cursor-on summary,body.cursor-on input,body.cursor-on select,body.cursor-on textarea,body.cursor-on label{cursor:none}}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;
+  padding:26px 48px;color:#fff;transition:padding .4s,background .4s,color .4s,box-shadow .4s,border-color .4s;border-bottom:1px solid transparent}
+nav.s{background:rgba(244,243,239,.93);backdrop-filter:blur(14px);color:var(--ink);padding:15px 48px;border-color:var(--line-l);box-shadow:0 8px 30px -24px rgba(0,0,0,.5)}
+.brand{display:flex;align-items:baseline;gap:9px;text-decoration:none;color:inherit}
+.brand .bm{font-family:'Archivo',sans-serif;font-weight:700;font-size:23px;letter-spacing:-.01em}
+.brand .bs{font-family:'Archivo',sans-serif;font-size:10px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;opacity:.66}
+.brand .bd{width:5px;height:5px;border-radius:50%;background:var(--accent);align-self:center;margin-left:-3px}
+.nav-mid{display:flex;align-items:center;gap:30px}
+.nav-item{position:relative;display:flex;align-items:center}
+.nav-mid a{color:inherit;text-decoration:none;font-size:14px;font-weight:400;letter-spacing:.02em;opacity:.8;position:relative;padding:3px 0;transition:opacity .2s}
+.nav-mid>a::after,.nav-item>a::after{content:'';position:absolute;left:0;bottom:-3px;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.nav-mid>a:hover,.nav-item>a:hover{opacity:1}
+.nav-mid>a:hover::after,.nav-item:hover>a::after{transform:scaleX(1)}
+.nav-item>a .caret{display:inline-block;width:7px;height:7px;border-right:1.4px solid currentColor;border-bottom:1.4px solid currentColor;transform:rotate(45deg) translateY(-2px);margin-left:7px;opacity:.7;transition:transform .3s}
+.nav-item:hover>a .caret{transform:rotate(225deg) translateY(-2px)}
+.mega{position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:18px;opacity:0;visibility:hidden;transition:opacity .26s,visibility .26s;z-index:210}
+.nav-item:hover .mega{opacity:1;visibility:visible}
+.mega-inner{background:#fff;border-radius:16px;padding:30px 34px;box-shadow:0 36px 70px -26px rgba(21,24,28,.4);display:grid;grid-template-columns:repeat(3,minmax(160px,1fr));gap:22px 44px;transform:translateY(10px);transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.nav-item:hover .mega-inner{transform:translateY(0)}
+.mega-areas .mega-inner{grid-template-columns:repeat(3,minmax(150px,1fr))}
+.mega-h{font-family:'Archivo',sans-serif;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-deep);margin-bottom:12px;display:block}
+.mega a{display:block;color:var(--tx);font-size:14px;font-weight:400;padding:7px 0;text-decoration:none;opacity:1;transition:color .2s,padding-left .2s;white-space:nowrap}
+.mega a::after{display:none}
+.mega a:hover{color:var(--accent);padding-left:5px}
+.nav-r{display:flex;align-items:center;gap:18px}
+.langs{display:flex;gap:1px}
+.lb{background:none;border:none;color:inherit;font-family:'Archivo',sans-serif;font-size:13px;cursor:pointer;padding:4px 6px;opacity:.5;transition:opacity .2s}
+.lb.a{opacity:1;color:var(--accent-light)}nav.s .lb.a{color:var(--accent-deep)}.lb:hover{opacity:1}
+.nav-phone{display:none;align-items:center;gap:8px;color:inherit;text-decoration:none;font-size:14px;font-weight:500;opacity:.9}
+.nav-phone svg{width:15px;height:15px;color:var(--accent-light)}nav.s .nav-phone svg{color:var(--accent)}
+.ncta{display:inline-block;border:1px solid currentColor;color:inherit;text-decoration:none;font-family:'Archivo',sans-serif;font-size:12px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;padding:11px 22px;border-radius:40px;transition:background .25s,color .25s,border-color .25s;opacity:.92}
+.ncta:hover{background:var(--accent);border-color:var(--accent);color:#fff;opacity:1}
+
+/* HERO */
+.hero{position:relative;height:100vh;min-height:640px;overflow:hidden;color:#fff;display:flex;align-items:flex-end}
+.hero-media{position:absolute;inset:-10% 0;z-index:0;will-change:transform}
+.hero-media img,.hero-vid{width:100%;height:100%;object-fit:cover}
+.hero-vid{position:absolute;inset:0;z-index:1}
+.hero-scrim{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(18,21,25,.46) 0%,rgba(18,21,25,.16) 32%,rgba(18,21,25,.4) 62%,rgba(18,21,25,.85) 100%)}
+.hero-inner{position:relative;z-index:3;width:100%;padding-bottom:92px}
+.hero-eyebrow{color:rgba(255,255,255,.85);margin-bottom:30px;opacity:0;transform:translateY(16px);transition:opacity .7s .15s,transform .7s .15s cubic-bezier(.16,1,.3,1)}
+.hero h1{font-family:'Archivo',sans-serif;font-weight:600;text-transform:uppercase;font-size:clamp(50px,8.4vw,120px);line-height:.95;letter-spacing:-.018em;margin-bottom:28px}
+.hero h1 .ln{display:block;overflow:hidden}
+.hero h1 .ln i{display:block;font-style:normal;transform:translateY(110%);transition:transform .9s cubic-bezier(.16,1,.3,1)}
+.hero h1 .ln:nth-child(1) i{transition-delay:.2s}
+.hero h1 .ln:nth-child(2) i{transition-delay:.33s;font-weight:300;color:var(--accent-light)}
+.hero-sub{max-width:500px;font-size:17px;font-weight:300;color:rgba(255,255,255,.86);margin-bottom:40px;opacity:0;transform:translateY(16px);transition:opacity .7s .6s,transform .7s .6s cubic-bezier(.16,1,.3,1)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:15px;opacity:0;transform:translateY(16px);transition:opacity .7s .74s,transform .7s .74s cubic-bezier(.16,1,.3,1)}
+.btn{display:inline-flex;align-items:center;gap:11px;font-family:'Archivo',sans-serif;font-size:13px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:16px 30px;border-radius:40px;transition:background .25s,color .25s,border-color .25s,transform .2s;cursor:pointer;border:1px solid transparent}
+.btn-fill{background:var(--accent);color:#fff}.btn-fill:hover{background:var(--accent-deep);transform:translateY(-2px)}
+.btn-ghost{border-color:rgba(255,255,255,.45);color:#fff}.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.hero-side{position:absolute;right:34px;bottom:100px;z-index:3;writing-mode:vertical-rl;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+body.loaded .hero-eyebrow,body.loaded .hero-sub,body.loaded .hero-cta{opacity:1;transform:translateY(0)}
+body.loaded .hero h1 .ln i{transform:translateY(0)}
+
+.sec{padding:130px 0;position:relative}
+.stag{color:var(--accent-deep);margin-bottom:20px}
+.stitle{font-family:'Archivo',sans-serif;font-weight:600;text-transform:uppercase;font-size:clamp(32px,4.4vw,58px);line-height:1;letter-spacing:-.015em;color:var(--ink)}
+
+/* STATS */
+.stats{background:var(--ink);color:var(--tl);padding:80px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:36px}
+.stat{border-left:1px solid var(--line-d);padding-left:26px}
+.stat-n{font-family:'Archivo',sans-serif;font-weight:600;font-size:clamp(42px,4.6vw,64px);line-height:1;color:#fff;margin-bottom:8px;letter-spacing:-.02em}
+.stat-n .u{color:var(--accent-light);font-size:.5em}
+.stat-l{font-size:13px;letter-spacing:.04em;color:var(--tl-mute)}
+
+/* ABOUT */
+.about{background:var(--paper)}
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center}
+.about-body{font-size:18px;font-weight:300;color:#4F555B;margin-top:26px;max-width:500px}
+.about-body b{font-weight:500;color:var(--ink)}
+.about-pts{list-style:none;margin-top:34px;display:flex;flex-direction:column}
+.about-pts li{display:flex;align-items:center;gap:15px;padding:16px 0;border-top:1px solid var(--line-l);font-size:15px;color:var(--tx)}
+.about-pts li:last-child{border-bottom:1px solid var(--line-l)}
+.about-pts svg{width:19px;height:19px;color:var(--accent);flex:none}
+.about-media{position:relative;height:560px;border-radius:var(--r);overflow:hidden}
+.about-media img{position:absolute;inset:-10% 0;width:100%;height:120%;object-fit:cover;will-change:transform}
+
+/* TRUST */
+.trust{background:var(--paper-2)}
+.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:50px}
+.tcard{padding-top:30px;border-top:2px solid var(--accent)}
+.tcard .ic{width:46px;height:46px;color:var(--accent);margin-bottom:22px}
+.tcard h3{font-family:'Archivo',sans-serif;font-weight:600;font-size:24px;color:var(--ink);margin-bottom:12px;letter-spacing:-.01em}
+.tcard p{font-size:15px;font-weight:300;color:#4F555B}
+
+/* SERVICES CAROUSEL */
+.svc{background:var(--paper)}
+.svc-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:52px}
+.caro-nav{display:flex;gap:12px}
+.caro-btn{width:54px;height:54px;border-radius:50%;border:1px solid var(--line-l);background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:background .25s,color .25s,border-color .25s}
+.caro-btn:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.caro-btn svg{width:20px;height:20px}
+.caro-track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:none}
+.caro-track::-webkit-scrollbar{display:none}
+.scard{flex:0 0 380px;scroll-snap-align:start;position:relative;border-radius:var(--r);overflow:hidden;height:480px;text-decoration:none;color:#fff;background:var(--ink-2)}
+.scard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.scard:hover img{transform:scale(1.06)}
+.scard-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,21,25,.05) 40%,rgba(18,21,25,.9) 100%)}
+.scard-body{position:absolute;left:0;right:0;bottom:0;padding:30px;z-index:2}
+.scard-name{font-family:'Archivo',sans-serif;font-weight:600;font-size:27px;letter-spacing:-.01em;margin-bottom:8px}
+.scard-desc{font-size:14px;font-weight:300;color:rgba(255,255,255,.82);margin-bottom:14px}
+.scard-price{font-family:'Archivo',sans-serif;font-size:13px;font-weight:500;letter-spacing:.04em;color:var(--accent-light);display:flex;align-items:center;gap:8px}
+.scard-price svg{width:16px;height:16px;transition:transform .3s}
+.scard:hover .scard-price svg{transform:translateX(4px)}
+
+/* WORKS */
+.works{background:var(--ink);color:var(--tl)}
+.works .stitle{color:#fff}.works .stag{color:var(--accent-light)}
+.works-head{margin-bottom:56px}
+.works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.work{position:relative;overflow:hidden;border-radius:var(--r);aspect-ratio:4/5;background:var(--ink-2)}
+.work img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1)}
+.work:hover img{transform:scale(1.05)}
+.work figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px;color:#fff;font-family:'Archivo',sans-serif;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;background:linear-gradient(0deg,rgba(18,21,25,.8),rgba(18,21,25,0))}
+
+/* PROCESS */
+.process{background:var(--paper-2);overflow:hidden}
+.process-bg{position:absolute;inset:-10% 0;z-index:0;will-change:transform}
+.process-bg img{width:100%;height:100%;object-fit:cover;opacity:.14}
+.process .wrap{position:relative;z-index:2}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:64px}
+.step-n{font-family:'Archivo',sans-serif;font-weight:600;font-size:34px;color:var(--accent);padding-bottom:18px;border-bottom:1px solid var(--line-l);margin-bottom:18px;letter-spacing:-.02em}
+.step-t{font-family:'Archivo',sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin-bottom:8px}
+.step-d{font-size:14px;font-weight:300;color:#4F555B;line-height:1.6}
+
+/* PRICING */
+.pricing{background:var(--paper)}
+.price-head{max-width:640px;margin-bottom:56px}
+.price-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.pcard{background:var(--paper-2);border:1px solid var(--line-l);border-radius:var(--r);padding:34px 28px;display:flex;flex-direction:column;transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,background .35s,border-color .35s}
+.pcard:hover{transform:translateY(-6px);box-shadow:0 30px 60px -38px rgba(21,24,28,.45);background:#fff;border-color:var(--accent)}
+.pc-tag{display:inline-block;align-self:flex-start;font-family:'Archivo',sans-serif;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-deep);background:rgba(78,126,108,.12);padding:5px 11px;border-radius:40px;margin-bottom:14px}
+.pc-name{font-family:'Archivo',sans-serif;font-weight:600;font-size:23px;color:var(--ink);margin-bottom:4px;letter-spacing:-.01em}
+.pc-sub{font-size:12.5px;color:var(--tx-mute);margin-bottom:22px}
+.pc-price{font-size:14px;color:var(--tx-mute);padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--line-l)}
+.pc-price b{display:block;font-family:'Archivo',sans-serif;font-weight:600;font-size:30px;color:var(--ink);letter-spacing:-.01em;margin-top:4px}
+.pc-list{list-style:none;display:flex;flex-direction:column;gap:11px;flex:1}
+.pc-li{display:flex;gap:10px;font-size:13.5px;color:var(--tx)}
+.pc-li svg{width:15px;height:15px;color:var(--accent);flex:none;margin-top:4px}
+.pc-btn{margin-top:26px;text-align:center;font-family:'Archivo',sans-serif;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:14px;border-radius:40px;text-decoration:none;border:1px solid var(--line-l);color:var(--ink);transition:background .25s,color .25s,border-color .25s}
+.pc-btn:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.price-note{margin-top:30px;font-size:13.5px;color:var(--tx-mute)}
+
+/* FAQ */
+.faq{background:var(--paper-2)}
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}
+.faq-list details{border-bottom:1px solid var(--line-l)}
+.faq-list summary{list-style:none;cursor:pointer;padding:24px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;font-family:'Archivo',sans-serif;font-size:18px;font-weight:500;color:var(--ink)}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary .pm{flex:none;width:24px;height:24px;position:relative}
+.faq-list summary .pm::before,.faq-list summary .pm::after{content:'';position:absolute;background:var(--accent);left:50%;top:50%}
+.faq-list summary .pm::before{width:14px;height:1.5px;transform:translate(-50%,-50%)}
+.faq-list summary .pm::after{width:1.5px;height:14px;transform:translate(-50%,-50%);transition:transform .3s}
+.faq-list details[open] summary .pm::after{transform:translate(-50%,-50%) scaleY(0)}
+.faq-list .ans{padding:0 0 26px;font-size:15px;font-weight:300;color:#4F555B;max-width:60ch}
+
+/* REVIEWS */
+.reviews{background:var(--paper)}
+.rev-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:48px;flex-wrap:wrap}
+.rev-rate{text-align:right}
+.rev-rate .num{font-family:'Archivo',sans-serif;font-weight:600;font-size:40px;color:var(--ink);line-height:1}
+.rev-rate .lbl{font-size:13px;color:var(--tx-mute)}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rcard{background:var(--paper-2);border:1px solid var(--line-l);border-radius:var(--r);padding:30px}
+.rcard .stars{color:var(--accent);letter-spacing:3px;font-size:15px;margin-bottom:16px}
+.rcard p{font-size:15px;font-weight:300;color:var(--tx);margin-bottom:20px;line-height:1.65}
+.rcard .who{font-family:'Archivo',sans-serif;font-size:14px;font-weight:500;color:var(--ink)}
+.rcard .where{font-size:13px;color:var(--tx-mute)}
+.rev-note{margin-top:26px;font-size:13px;color:var(--tx-mute)}
+
+/* CONTACT */
+.contact{background:var(--ink);color:var(--tl)}
+.contact .stitle{color:#fff}.contact .stag{color:var(--accent-light)}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:start}
+.c-lead{font-size:18px;font-weight:300;color:#C7CBC5;margin-top:24px;max-width:34ch}
+.c-list{margin-top:40px;display:flex;flex-direction:column;gap:24px}
+.c-item{display:flex;gap:16px;align-items:flex-start}
+.c-item svg{width:20px;height:20px;color:var(--accent-light);flex:none;margin-top:3px}
+.c-item .l{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--tl-mute);margin-bottom:4px}
+.c-item .v{font-size:16px;color:#fff;font-weight:400}
+.c-item a.v{text-decoration:none}
+.form{display:flex;flex-direction:column;gap:20px;background:var(--ink-2);padding:40px;border-radius:var(--r);border:1px solid var(--line-d)}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:8px}
+.field label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--tl-mute)}
+.field input,.field select,.field textarea{background:transparent;border:none;border-bottom:1px solid var(--line-d);color:#fff;font-family:'Inter',sans-serif;font-size:16px;font-weight:300;padding:11px 2px;outline:none;transition:border-color .25s;-webkit-appearance:none;appearance:none;border-radius:0}
+.field input::placeholder,.field textarea::placeholder{color:#6E747B}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent-light)}
+.field textarea{resize:vertical;min-height:76px}
+.field select option{background:var(--ink-2);color:#fff}
+.fbtn{align-self:flex-start;background:var(--accent);color:#fff;border:none;font-family:'Archivo',sans-serif;font-size:13px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:16px 40px;border-radius:40px;cursor:pointer;margin-top:6px;transition:background .25s,transform .2s}
+.fbtn:hover{background:var(--accent-deep);transform:translateY(-2px)}
+.fok{display:none;padding:30px;border:1px solid var(--accent-light);border-radius:var(--r);color:var(--accent-light);font-family:'Archivo',sans-serif;font-size:22px;font-weight:500}
+
+/* FOOTER */
+footer{background:var(--ink-2);color:var(--tl);padding:84px 0 36px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.3fr;gap:48px;padding-bottom:52px;border-bottom:1px solid var(--line-d)}
+.foot-brand .bm{font-family:'Archivo',sans-serif;font-weight:700;font-size:26px;color:#fff}
+.foot-tag{font-size:14px;font-weight:300;color:var(--tl-mute);margin-top:16px;max-width:24ch}
+.foot-social{display:flex;gap:12px;margin-top:24px}
+.foot-social a{width:38px;height:38px;border:1px solid var(--line-d);border-radius:50%;display:grid;place-items:center;color:var(--tl);transition:background .25s,color .25s,border-color .25s}
+.foot-social a:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.foot-social svg{width:17px;height:17px}
+.foot-col h4{font-family:'Archivo',sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--tl-mute);margin-bottom:18px;font-weight:600}
+.foot-col a,.foot-col p{display:block;color:var(--tl);text-decoration:none;font-size:14px;font-weight:300;margin-bottom:11px;opacity:.85}
+.foot-col a:hover{opacity:1;color:var(--accent-light)}
+.foot-col .hrs{color:var(--tl-mute);font-size:13px}
+.foot-bot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding-top:26px;font-size:12.5px;color:var(--tl-mute)}
+.foot-legal{display:flex;gap:24px}.foot-legal a{color:var(--tl-mute);text-decoration:none}.foot-legal a:hover{color:var(--tl)}
+
+.r{opacity:0;transform:translateY(30px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.r.v{opacity:1;transform:translateY(0)}
+
+@media(max-width:1180px){.mega-inner{grid-template-columns:repeat(2,minmax(150px,1fr))}}
+@media(max-width:1080px){
+  .about-grid,.contact-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
+  .about-media{height:420px}
+  .trust-grid{grid-template-columns:1fr;gap:36px}
+  .price-grid{grid-template-columns:repeat(2,1fr)}
+  .rev-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr;gap:36px 28px}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:40px}
+}
+@media(max-width:860px){
+  .nav-mid{display:none}
+  .stats-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .works-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  .wrap{padding:0 22px}
+  nav,nav.s{padding:15px 22px}
+  .ncta{display:none}
+  .sec{padding:84px 0}
+  .hero-inner{padding-bottom:64px}.hero-side{display:none}
+  .price-grid,.foot-grid,.works-grid{grid-template-columns:1fr}
+  .scard{flex-basis:280px;height:400px}
+  .form{padding:26px}
+  .rev-head,.svc-head{flex-direction:column;align-items:flex-start}
+}
+@media(pointer:coarse){#cdot,#cring,#cglow{display:none}}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .hero h1 .ln i{transform:none}.r{opacity:1;transform:none}[data-speed]{transform:none!important}
+  #cdot,#cring,#cglow{display:none}
+}
+</style>
+</head>
+<body class="cursor-on loaded">
+
+<div id="prog" style="transform: scaleX(0);"></div>
+<div id="cglow" style="transform: translate(1087.64px, 322.154px);"></div><div id="cring" style="transform: translate(1137.72px, 271.237px);" class=""></div><div id="cdot" style="transform: translate(1177px, 245px);"></div>
+
+<nav id="nav" class="">
+  <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#top" class="brand" aria-label="Takhub Bygg AB">
+    <span class="bm">Takhub</span><span class="bd"></span><span class="bs" data-i18n="brandSub">Bygg AB</span>
+  </a>
+  <div class="nav-mid">
+    <div class="nav-item">
+      <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="nTjanster">Tjänster</a>
+      <div class="mega"><div class="mega-inner">
+        <div><span class="mega-h" data-i18n="megaTak">Takarbeten</span>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="m1">Takomläggning</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="m2">Takbyte</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="m3">Takreparation</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="m4">Takbesiktning</a>
+        </div>
+        <div><span class="mega-h" data-i18n="megaTyp">Taktyper</span>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" data-i18n="c1n">Papptak</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" data-i18n="c2n">Betongpannor</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" data-i18n="c3n">Tegelpannor</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" data-i18n="c4n">Dubbelfalsad plåt</a>
+        </div>
+        <div><span class="mega-h" data-i18n="megaMer">Mer</span>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="m5">Takrännor</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="m6">Taksäkerhet</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="m7">Snöskottning</a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="m8">Fasad (på begäran)</a>
+        </div>
+      </div></div>
+    </div>
+    <div class="nav-item mega-areas">
+      <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="nOmraden">Områden</a>
+      <div class="mega"><div class="mega-inner">
+        <div><span class="mega-h" data-i18n="megaOmr">Vi arbetar i</span>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Norsborg</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Hallunda</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Alby</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Fittja</a>
+        </div>
+        <div><span class="mega-h">&nbsp;</span>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Tumba</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Botkyrka</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Huddinge</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Skärholmen</a>
+        </div>
+        <div><span class="mega-h">&nbsp;</span>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Bredäng</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Segeltorp</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Älvsjö</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact">Stockholm</a>
+        </div>
+      </div></div>
+    </div>
+    <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" data-i18n="nPriser">Priser</a>
+    <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#works" data-i18n="nArbeten">Arbeten</a>
+    <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#faq" data-i18n="nFaq">FAQ</a>
+    <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="nKontakt">Kontakt</a>
+  </div>
+  <div class="nav-r">
+    <div class="langs">
+      <button class="lb a" data-lang="sv">SV</button><button class="lb" data-lang="en">EN</button><button class="lb" data-lang="ru">RU</button>
+    </div>
+    <a href="tel:+46704887902" class="nav-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg><span>+46 70 488 79 02</span></a>
+    <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" class="ncta" data-i18n="nCta">Begär offert</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-media" data-speed=".16" style="transform: translate3d(0px, 0px, 0px);">
+    <video class="hero-vid" id="heroVid" autoplay="" muted="" loop="" playsinline="" preload="auto" poster="images/roof-chalet.jpg"><source src="images/hero-drone.mp4" type="video/mp4"></video>
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="hero-inner">
+    <div class="wrap">
+      <span class="eyebrow hero-eyebrow" data-i18n="hEyebrow">Takläggare · Norsborg, Stockholm</span>
+      <h1>
+        <span class="ln"><i data-i18n="hT1">Tak som håller</i></span>
+        <span class="ln"><i data-i18n="hT2">i decennier.</i></span>
+      </h1>
+      <p class="hero-sub" data-i18n="hSub">Takhub Bygg AB lägger om, byter och reparerar tak i Norsborg och hela Stockholm. Fem år på byggarbetsplatser, 10 års garanti och ROT-avdrag.</p>
+      <div class="hero-cta">
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" class="btn btn-fill" data-i18n="hCta1">Begär offert</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" class="btn btn-ghost" data-i18n="hCta2">Se priser</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-side">TAKHUB · NORSBORG</div>
+</header>
+
+<!-- STATS -->
+<section class="stats" aria-label="Statistik">
+  <div class="wrap stats-grid">
+    <div class="stat r v"><div class="stat-n"><span data-count="5">5</span></div><div class="stat-l" data-i18n="st1l">år på byggarbetsplatser</div></div>
+    <div class="stat r v" style="transition-delay:.08s"><div class="stat-n"><span data-count="300">300</span><span class="u">+</span></div><div class="stat-l" data-i18n="st2l">slutförda tak</div></div>
+    <div class="stat r v" style="transition-delay:.16s"><div class="stat-n"><span data-count="10">10</span><span class="u" data-i18n="stYr"> år</span></div><div class="stat-l" data-i18n="st3l">garanti på arbetet</div></div>
+    <div class="stat r v" style="transition-delay:.24s"><div class="stat-n">ROT</div><div class="stat-l" data-i18n="st4l">avdrag tillämpas</div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <span class="eyebrow stag r v" data-i18n="aTag">Om oss</span>
+      <h2 class="stitle r v" style="transition-delay:.06s" data-i18n="aTitle">Tak är vårt hantverk.</h2>
+      <p class="about-body r v" style="transition-delay:.12s" data-i18n="aBody">Takhub Bygg AB är en takläggare i Norsborg, Stockholm — byggd på <b>fem års arbete på byggarbetsplatser</b>. Vi lägger om och byter tak på villor och fastigheter, med 10 års garanti och ROT-avdrag. Vi utför även fasadarbeten på begäran.</p>
+      <ul class="about-pts r v" style="transition-delay:.18s">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg><span data-i18n="a1">Vetevägen 3, Norsborg · hela Stockholm</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"></path></svg><span data-i18n="a2">Svenska · English · Русский</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v5c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V6Z"></path><path d="m9 12 2 2 4-4"></path></svg><span data-i18n="a3">Fullt försäkrade · ROT-avdrag</span></li>
+      </ul>
+    </div>
+    <div class="about-media r v" style="transition-delay:.1s">
+      <img src="./index_files/roof-work.jpg" alt="Takläggare i arbete" data-speed=".1" style="transform: translate3d(0px, -111.959px, 0px);">
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="sec trust">
+  <div class="wrap trust-grid">
+    <div class="tcard r v">
+      <svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M24 4 6 12l3 20 15 12 15-12 3-20Z"></path><path d="m17 24 5 5 10-11"></path></svg>
+      <h3 data-i18n="t1t">Kvalitet</h3><p data-i18n="t1d">Tak anpassade för det svenska klimatet. 10 års garanti på allt utfört arbete.</p>
+    </div>
+    <div class="tcard r v" style="transition-delay:.08s">
+      <svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 40V20l16-12 16 12v20Z"></path><path d="M18 40V28h12v12"></path></svg>
+      <h3 data-i18n="t2t">Erfarenhet</h3><p data-i18n="t2d">Fem år på byggarbetsplatser och 300+ tak. Tradition kombinerat med moderna metoder.</p>
+    </div>
+    <div class="tcard r v" style="transition-delay:.16s">
+      <svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M24 4 8 10v12c0 10 7 16 16 22 9-6 16-12 16-22V10Z"></path><path d="m18 23 5 5 8-9"></path></svg>
+      <h3 data-i18n="t3t">Trygghet</h3><p data-i18n="t3d">Fullt försäkrade, ROT-avdrag och dokumenterat arbete — du vet alltid vad som görs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES CAROUSEL -->
+<section class="sec svc" id="services">
+  <div class="wrap">
+    <div class="svc-head">
+      <div class="r v">
+        <span class="eyebrow stag" data-i18n="sTag">Taktyper</span>
+        <h2 class="stitle" data-i18n="sTitle">Tak vi lägger</h2>
+      </div>
+      <div class="caro-nav r v" style="transition-delay:.1s">
+        <button class="caro-btn" id="caroPrev" aria-label="Föregående"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></button>
+        <button class="caro-btn" id="caroNext" aria-label="Nästa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button>
+      </div>
+    </div>
+    <div class="caro-track" id="caroTrack">
+      <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" class="scard"><img src="./index_files/roof-flat.jpg" alt="Papptak" loading="lazy"><div class="scard-scrim"></div><div class="scard-body"><div class="scard-name dsp" data-i18n="c1n">Papptak</div><div class="scard-desc" data-i18n="c1d">Tätskikt för låglutande tak. Hållbart och underhållsfritt.</div><div class="scard-price" data-i18n="c1p">Från 1 100 kr/kvm</div></div></a>
+      <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" class="scard"><img src="./index_files/roof-concrete.jpg" alt="Betongpannor" loading="lazy"><div class="scard-scrim"></div><div class="scard-body"><div class="scard-name dsp" data-i18n="c2n">Betongpannor</div><div class="scard-desc" data-i18n="c2d">Klassiskt, kostnadseffektivt och mycket tåligt.</div><div class="scard-price" data-i18n="c2p">Från 1 450 kr/kvm</div></div></a>
+      <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" class="scard"><img src="./index_files/roof-clay.jpg" alt="Tegelpannor" loading="lazy"><div class="scard-scrim"></div><div class="scard-body"><div class="scard-name dsp" data-i18n="c3n">Tegelpannor</div><div class="scard-desc" data-i18n="c3d">Naturmaterial med lång livslängd och tidlös känsla.</div><div class="scard-price" data-i18n="c3p">Från 1 700 kr/kvm</div></div></a>
+      <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" class="scard"><img src="./index_files/roof-metal.jpg" alt="Dubbelfalsad plåt" loading="lazy"><div class="scard-scrim"></div><div class="scard-body"><div class="scard-name dsp" data-i18n="c4n">Dubbelfalsad plåt</div><div class="scard-desc" data-i18n="c4d">Lätt, modernt och extremt väderbeständigt.</div><div class="scard-price" data-i18n="c4p">Från 2 350 kr/kvm</div></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section class="sec works" id="works">
+  <div class="wrap">
+    <div class="works-head r v">
+      <span class="eyebrow stag" data-i18n="wTag">Utvalda arbeten</span>
+      <h2 class="stitle" data-i18n="wTitle">Nyligen avslutat</h2>
+    </div>
+    <div class="works-grid">
+      <figure class="work r v"><img src="./index_files/roof-metal.jpg" alt="Plåttak, dubbelfals" loading="lazy"><figcaption data-i18n="g1">Plåttak · dubbelfals</figcaption></figure>
+      <figure class="work r v" style="transition-delay:.06s"><img src="./index_files/roof-clay.jpg" alt="Tegeltak" loading="lazy"><figcaption data-i18n="g2">Tegeltak</figcaption></figure>
+      <figure class="work r v" style="transition-delay:.12s"><img src="./index_files/roof-concrete.jpg" alt="Betongpannor" loading="lazy"><figcaption data-i18n="g3">Betongpannor</figcaption></figure>
+      <figure class="work r v"><img src="./index_files/roof-chalet.jpg" alt="Villatak" loading="lazy"><figcaption data-i18n="g4">Villatak</figcaption></figure>
+      <figure class="work r v" style="transition-delay:.06s"><img src="./index_files/roof-red.jpg" alt="Plåttak, stuga" loading="lazy"><figcaption data-i18n="g5">Plåttak · stuga</figcaption></figure>
+      <figure class="work r v" style="transition-delay:.12s"><img src="./index_files/roof-work.jpg" alt="Takarbete pågår" loading="lazy"><figcaption data-i18n="g6">Takarbete pågår</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="sec process" id="process">
+  <div class="process-bg" data-speed=".14" style="transform: translate3d(0px, -645.599px, 0px);"><img src="./index_files/roof-suburb.jpg" alt=""></div>
+  <div class="wrap">
+    <span class="eyebrow stag r v" data-i18n="pTag">Så arbetar vi</span>
+    <h2 class="stitle r v" style="transition-delay:.06s" data-i18n="pTitle">Fyra steg till nytt tak</h2>
+    <div class="steps">
+      <div class="step r v"><div class="step-n">01</div><h3 class="step-t" data-i18n="p1t">Besiktning</h3><p class="step-d" data-i18n="p1d">Vi besöker fastigheten och bedömer taket — utan kostnad.</p></div>
+      <div class="step r v" style="transition-delay:.08s"><div class="step-n">02</div><h3 class="step-t" data-i18n="p2t">Offert</h3><p class="step-d" data-i18n="p2d">Exakta priser, material och tidsplan. Inga dolda avgifter.</p></div>
+      <div class="step r v" style="transition-delay:.16s"><div class="step-n">03</div><h3 class="step-t" data-i18n="p3t">Utförande</h3><p class="step-d" data-i18n="p3d">Erfaret team, arbete enligt plan, löpande uppdatering.</p></div>
+      <div class="step r v" style="transition-delay:.24s"><div class="step-n">04</div><h3 class="step-t" data-i18n="p4t">Garanti</h3><p class="step-d" data-i18n="p4d">Slutbesiktning och 10 års skriftlig garanti.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="sec pricing" id="pricing">
+  <div class="wrap">
+    <div class="price-head r v">
+      <span class="eyebrow stag" data-i18n="prTag">Priser</span>
+      <h2 class="stitle" data-i18n="prTitle">Tydliga priser</h2>
+    </div>
+    <div class="price-grid">
+      <div class="pcard r v">
+        <div class="pc-name" data-i18n="pr1n">Papptak</div><div class="pc-sub" data-i18n="pr1s">Låglutande tak</div>
+        <div class="pc-price" data-i18n="prFrom">Från</div>
+        <ul class="pc-list">
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prA">Ställning &amp; fallskydd</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prB">Rivning av befintlig beläggning</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="pr1c">Nytt tätskikt, svetsat</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prD">Ny avvattning</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prE">Container &amp; städning</span></li>
+        </ul>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" class="pc-btn" data-i18n="prBtn">Begär offert</a>
+      </div>
+      <div class="pcard r v" style="transition-delay:.06s">
+        <div class="pc-name" data-i18n="pr2n">Betongpannor</div><div class="pc-sub" data-i18n="pr2s">Sadeltak</div>
+        <div class="pc-price" data-i18n="prFrom">Från</div>
+        <ul class="pc-list">
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prA">Ställning &amp; fallskydd</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prB">Rivning av befintlig beläggning</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prF">Ny underlagspapp &amp; läkt</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prD">Ny avvattning</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prE">Container &amp; städning</span></li>
+        </ul>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" class="pc-btn" data-i18n="prBtn">Begär offert</a>
+      </div>
+      <div class="pcard r v" style="transition-delay:.12s">
+        <span class="pc-tag" data-i18n="prPop">Mest populärt</span>
+        <div class="pc-name" data-i18n="pr3n">Tegelpannor</div><div class="pc-sub" data-i18n="pr3s">Naturtegel</div>
+        <div class="pc-price" data-i18n="prFrom">Från</div>
+        <ul class="pc-list">
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prA">Ställning &amp; fallskydd</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prB">Rivning av befintlig beläggning</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prF">Ny underlagspapp &amp; läkt</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prG">Förstklassiga tegelpannor</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prE">Container &amp; städning</span></li>
+        </ul>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" class="pc-btn" data-i18n="prBtn">Begär offert</a>
+      </div>
+      <div class="pcard r v" style="transition-delay:.18s">
+        <div class="pc-name" data-i18n="pr4n">Dubbelfalsad plåt</div><div class="pc-sub" data-i18n="pr4s">Premium</div>
+        <div class="pc-price" data-i18n="prFrom">Från</div>
+        <ul class="pc-list">
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prA">Ställning &amp; fallskydd</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prB">Rivning av befintlig beläggning</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prH">Ny underlagspapp</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prI">Dubbelfalsad plåt 0,6 mm</span></li>
+          <li class="pc-li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg><span data-i18n="prE">Container &amp; städning</span></li>
+        </ul>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" class="pc-btn" data-i18n="prBtn">Begär offert</a>
+      </div>
+    </div>
+    <p class="price-note r v" data-i18n="prNote">Priserna är vägledande och inkluderar arbete, material, resor och bortforsling. Exakt offert lämnas efter kostnadsfri besiktning. Fasadarbeten — pris på förfrågan.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec faq" id="faq">
+  <div class="wrap faq-grid">
+    <div class="r v">
+      <span class="eyebrow stag" data-i18n="fqTag">FAQ</span>
+      <h2 class="stitle" data-i18n="fqTitle">Vanliga frågor</h2>
+    </div>
+    <div class="faq-list r v" style="transition-delay:.1s">
+      <details open=""><summary><span data-i18n="q1">Vad kostar det att byta tak?</span><span class="pm"></span></summary><div class="ans" data-i18n="a1q">Det beror på taktyp, yta och lutning. Som riktlinje ligger takbyte på 1 100–2 350 kr/kvm efter ROT-avdrag. Du får en exakt offert efter en kostnadsfri besiktning.</div></details>
+      <details><summary><span data-i18n="q2">Hur lång tid tar ett takbyte?</span><span class="pm"></span></summary><div class="ans" data-i18n="a2q">Ett normalt villatak tar oftast 1–2 veckor beroende på storlek, väder och taktyp. Tidsplanen står tydligt i offerten.</div></details>
+      <details><summary><span data-i18n="q3">Vilken garanti lämnar ni?</span><span class="pm"></span></summary><div class="ans" data-i18n="a3q">Vi lämnar 10 års skriftlig garanti på utfört arbete. Material omfattas dessutom av respektive tillverkares garanti.</div></details>
+      <details><summary><span data-i18n="q4">Gäller ROT-avdrag för takbyte?</span><span class="pm"></span></summary><div class="ans" data-i18n="a4q">Ja. Arbetskostnaden för takbyte berättigar till ROT-avdrag på 30 %, upp till 50 000 kr per person och år. Vi drar av det direkt på fakturan.</div></details>
+      <details><summary><span data-i18n="q5">Vilka taktyper arbetar ni med?</span><span class="pm"></span></summary><div class="ans" data-i18n="a5q">Papptak, betongpannor, tegelpannor och dubbelfalsad plåt. Vi hjälper dig välja rätt material för din fastighet och budget.</div></details>
+      <details><summary><span data-i18n="q6">Hur bokar jag en besiktning?</span><span class="pm"></span></summary><div class="ans" data-i18n="a6q">Ring +46 70 488 79 02 eller fyll i formuläret nedan. Vi återkommer inom 24 timmar och bokar en kostnadsfri besiktning.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="sec reviews">
+  <div class="wrap">
+    <div class="rev-head">
+      <div class="r v">
+        <span class="eyebrow stag" data-i18n="rTag">Omdömen</span>
+        <h2 class="stitle" data-i18n="rTitle">Vad kunderna säger</h2>
+      </div>
+      <div class="rev-rate r v" style="transition-delay:.1s"><div class="num">5,0</div><div class="lbl" data-i18n="rRate">Snittbetyg · Google</div></div>
+    </div>
+    <div class="rev-grid">
+      <div class="rcard r v"><div class="stars">★★★★★</div><p data-i18n="rv1">"Snabb och proffsig kontakt, tydlig offert och ett riktigt snyggt takbyte. Rekommenderas."</p><div class="who" data-i18n="rv1n">Familjen Andersson</div><div class="where" data-i18n="rv1w">Villa, Norsborg</div></div>
+      <div class="rcard r v" style="transition-delay:.06s"><div class="stars">★★★★★</div><p data-i18n="rv2">"De höll tidsplanen och städade efter sig varje dag. Mycket nöjd med resultatet."</p><div class="who" data-i18n="rv2n">M. Karlsson</div><div class="where" data-i18n="rv2w">Radhus, Botkyrka</div></div>
+      <div class="rcard r v" style="transition-delay:.12s"><div class="stars">★★★★★</div><p data-i18n="rv3">"Bra pris, kunnigt team och tydlig dokumentation under hela arbetet. Tryggt hela vägen."</p><div class="who" data-i18n="rv3n">J. Nilsson</div><div class="where" data-i18n="rv3w">Villa, Tumba</div></div>
+    </div>
+    <p class="rev-note r v" data-i18n="rNote">Bli en av våra första kunder att lämna ett omdöme.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="eyebrow stag r v" data-i18n="cTag">Kontakt</span>
+      <h2 class="stitle r v" style="transition-delay:.06s" data-i18n="cTitle">Begär en offert</h2>
+      <p class="c-lead r v" style="transition-delay:.12s" data-i18n="cLead">Berätta om ditt tak — vi svarar inom 24 timmar med nästa steg.</p>
+      <div class="c-list r v" style="transition-delay:.18s">
+        <div class="c-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg><div><div class="l" data-i18n="cAddr">Adress</div><div class="v">Vetevägen 3, Norsborg</div></div></div>
+        <div class="c-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg><div><div class="l" data-i18n="cPhone">Telefon</div><a href="tel:+46704887902" class="v">+46 70 488 79 02</a></div></div>
+        <div class="c-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg><div><div class="l">E-post</div><a href="mailto:info@takhub.se" class="v">info@takhub.se</a></div></div>
+        <div class="c-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><div><div class="l" data-i18n="cHrs">Öppettider</div><div class="v" data-i18n="cHrsV">Mån–fre 07:00–17:00</div></div></div>
+      </div>
+    </div>
+    <div class="r v" style="transition-delay:.12s">
+      <form class="form" id="cform">
+        <div class="frow">
+          <div class="field"><label data-i18n="fn">Namn</label><input type="text" required="" placeholder="Anna Lindström"></div>
+          <div class="field"><label data-i18n="fp">Telefon</label><input type="tel" placeholder="+46 70 000 00 00"></div>
+        </div>
+        <div class="field"><label data-i18n="fe">E-post</label><input type="email" required="" placeholder="anna@exempel.se"></div>
+        <div class="field"><label data-i18n="faddr">Fastighetens adress</label><input type="text" data-iph="faddrPh" placeholder="Gatuadress, Stockholm"></div>
+        <div class="field"><label data-i18n="fs">Taktyp</label>
+          <select>
+            <option value="" data-i18n="fs0">Välj taktyp…</option>
+            <option data-i18n="fs1">Papptak</option><option data-i18n="fs2">Betongpannor</option><option data-i18n="fs3">Tegelpannor</option><option data-i18n="fs4">Dubbelfalsad plåt</option><option data-i18n="fs5">Vet ej / annat</option>
+          </select>
+        </div>
+        <div class="field"><label data-i18n="fm">Meddelande</label><textarea data-iph="fmph" placeholder="Beskriv ditt tak…"></textarea></div>
+        <button type="submit" class="fbtn" data-i18n="fsub">Skicka förfrågan</button>
+      </form>
+      <div class="fok" id="ok" data-i18n="fok">Tack! Vi återkommer inom 24 timmar.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="bm">Takhub</div>
+        <p class="foot-tag" data-i18n="fTag">Takläggare i Norsborg, Stockholm. Tak som håller i decennier.</p>
+        <div class="foot-social">
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8h4V24h-4V8Zm7 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4 0 4.78 2.6 4.78 6V24h-4v-7c0-1.7 0-3.8-2.3-3.8s-2.7 1.8-2.7 3.7V24h-4V8Z"></path></svg></a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7v-3.5h3.1V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.24 2.7.24v3h-1.5c-1.5 0-2 .93-2 1.9v2.2h3.4l-.54 3.5h-2.9v8.4A12 12 0 0 0 24 12Z"></path></svg></a>
+          <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="fcTj">Tjänster</h4>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="c1n">Papptak</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="c2n">Betongpannor</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="c3n">Tegelpannor</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#services" data-i18n="c4n">Dubbelfalsad plåt</a>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="fcMeny">Meny</h4>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#top" data-i18n="fcHem">Hem</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#pricing" data-i18n="nPriser">Priser</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#works" data-i18n="nArbeten">Arbeten</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#faq" data-i18n="nFaq">FAQ</a>
+        <a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#contact" data-i18n="nKontakt">Kontakt</a>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="fcKontakt">Kontakt</h4>
+        <a href="tel:+46704887902">+46 70 488 79 02</a>
+        <a href="mailto:info@takhub.se">info@takhub.se</a>
+        <p>Vetevägen 3, Norsborg</p>
+        <p class="hrs" data-i18n="fcHrs">Mån–fre 07:00–17:00<br>Lör–sön stängt</p>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span data-i18n="ftr">© 2026 Takhub Bygg AB · Org.nr —</span>
+      <div class="foot-legal"><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#" data-i18n="fLegal1">Integritetspolicy</a><a href="file:///C:/Users/zagor/Desktop/Claude%20Code/takhub.se/takhub-bygg.html#" data-i18n="fLegal2">Cookies</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="./index_files/lenis.min.js.Без названия"></script>
+<script>
+const T={
+sv:{brandSub:"Bygg AB",nTjanster:"Tjänster",nOmraden:"Områden",nPriser:"Priser",nArbeten:"Arbeten",nFaq:"FAQ",nKontakt:"Kontakt",nCta:"Begär offert",
+megaTak:"Takarbeten",megaTyp:"Taktyper",megaMer:"Mer",megaOmr:"Vi arbetar i",
+m1:"Takomläggning",m2:"Takbyte",m3:"Takreparation",m4:"Takbesiktning",m5:"Takrännor",m6:"Taksäkerhet",m7:"Snöskottning",m8:"Fasad (på begäran)",
+hEyebrow:"Takläggare · Norsborg, Stockholm",hT1:"Tak som håller",hT2:"i decennier.",
+hSub:"Takhub Bygg AB lägger om, byter och reparerar tak i Norsborg och hela Stockholm. Fem år på byggarbetsplatser, 10 års garanti och ROT-avdrag.",
+hCta1:"Begär offert",hCta2:"Se priser",
+st1l:"år på byggarbetsplatser",st2l:"slutförda tak",st3l:"garanti på arbetet",stYr:" år",st4l:"avdrag tillämpas",
+aTag:"Om oss",aTitle:"Tak är vårt hantverk.",
+aBody:"Takhub Bygg AB är en takläggare i Norsborg, Stockholm — byggd på <b>fem års arbete på byggarbetsplatser</b>. Vi lägger om och byter tak på villor och fastigheter, med 10 års garanti och ROT-avdrag. Vi utför även fasadarbeten på begäran.",
+a1:"Vetevägen 3, Norsborg · hela Stockholm",a2:"Svenska · English · Русский",a3:"Fullt försäkrade · ROT-avdrag",
+t1t:"Kvalitet",t1d:"Tak anpassade för det svenska klimatet. 10 års garanti på allt utfört arbete.",
+t2t:"Erfarenhet",t2d:"Fem år på byggarbetsplatser och 300+ tak. Tradition kombinerat med moderna metoder.",
+t3t:"Trygghet",t3d:"Fullt försäkrade, ROT-avdrag och dokumenterat arbete — du vet alltid vad som görs.",
+sTag:"Taktyper",sTitle:"Tak vi lägger",
+c1n:"Papptak",c1d:"Tätskikt för låglutande tak. Hållbart och underhållsfritt.",c1p:"Från 1 100 kr/kvm",
+c2n:"Betongpannor",c2d:"Klassiskt, kostnadseffektivt och mycket tåligt.",c2p:"Från 1 450 kr/kvm",
+c3n:"Tegelpannor",c3d:"Naturmaterial med lång livslängd och tidlös känsla.",c3p:"Från 1 700 kr/kvm",
+c4n:"Dubbelfalsad plåt",c4d:"Lätt, modernt och extremt väderbeständigt.",c4p:"Från 2 350 kr/kvm",
+wTag:"Utvalda arbeten",wTitle:"Nyligen avslutat",
+g1:"Plåttak · dubbelfals",g2:"Tegeltak",g3:"Betongpannor",g4:"Villatak",g5:"Plåttak · stuga",g6:"Takarbete pågår",
+pTag:"Så arbetar vi",pTitle:"Fyra steg till nytt tak",
+p1t:"Besiktning",p1d:"Vi besöker fastigheten och bedömer taket — utan kostnad.",
+p2t:"Offert",p2d:"Exakta priser, material och tidsplan. Inga dolda avgifter.",
+p3t:"Utförande",p3d:"Erfaret team, arbete enligt plan, löpande uppdatering.",
+p4t:"Garanti",p4d:"Slutbesiktning och 10 års skriftlig garanti.",
+prTag:"Priser",prTitle:"Tydliga priser",prFrom:"Från",prRot:"efter ROT-avdrag",prBtn:"Begär offert",prPop:"Mest populärt",
+pr1n:"Papptak",pr1s:"Låglutande tak",pr1p:"1 100 kr/kvm",
+pr2n:"Betongpannor",pr2s:"Sadeltak",pr2p:"1 450 kr/kvm",
+pr3n:"Tegelpannor",pr3s:"Naturtegel",pr3p:"1 700 kr/kvm",
+pr4n:"Dubbelfalsad plåt",pr4s:"Premium",pr4p:"2 350 kr/kvm",
+prA:"Ställning & fallskydd",prB:"Rivning av befintlig beläggning",pr1c:"Nytt tätskikt, svetsat",prD:"Ny avvattning",prE:"Container & städning",prF:"Ny underlagspapp & läkt",prG:"Förstklassiga tegelpannor",prH:"Ny underlagspapp",prI:"Dubbelfalsad plåt 0,6 mm",
+prNote:"Priserna är vägledande och inkluderar arbete, material, resor och bortforsling. Exakt offert lämnas efter kostnadsfri besiktning. Fasadarbeten — pris på förfrågan.",
+fqTag:"FAQ",fqTitle:"Vanliga frågor",
+q1:"Vad kostar det att byta tak?",a1q:"Det beror på taktyp, yta och lutning. Som riktlinje ligger takbyte på 1 100–2 350 kr/kvm efter ROT-avdrag. Du får en exakt offert efter en kostnadsfri besiktning.",
+q2:"Hur lång tid tar ett takbyte?",a2q:"Ett normalt villatak tar oftast 1–2 veckor beroende på storlek, väder och taktyp. Tidsplanen står tydligt i offerten.",
+q3:"Vilken garanti lämnar ni?",a3q:"Vi lämnar 10 års skriftlig garanti på utfört arbete. Material omfattas dessutom av respektive tillverkares garanti.",
+q4:"Gäller ROT-avdrag för takbyte?",a4q:"Ja. Arbetskostnaden för takbyte berättigar till ROT-avdrag på 30 %, upp till 50 000 kr per person och år. Vi drar av det direkt på fakturan.",
+q5:"Vilka taktyper arbetar ni med?",a5q:"Papptak, betongpannor, tegelpannor och dubbelfalsad plåt. Vi hjälper dig välja rätt material för din fastighet och budget.",
+q6:"Hur bokar jag en besiktning?",a6q:"Ring +46 70 488 79 02 eller fyll i formuläret nedan. Vi återkommer inom 24 timmar och bokar en kostnadsfri besiktning.",
+rTag:"Omdömen",rTitle:"Vad kunderna säger",rRate:"Snittbetyg · Google",
+rv1:"\"Snabb och proffsig kontakt, tydlig offert och ett riktigt snyggt takbyte. Rekommenderas.\"",rv1n:"Familjen Andersson",rv1w:"Villa, Norsborg",
+rv2:"\"De höll tidsplanen och städade efter sig varje dag. Mycket nöjd med resultatet.\"",rv2n:"M. Karlsson",rv2w:"Radhus, Botkyrka",
+rv3:"\"Bra pris, kunnigt team och tydlig dokumentation under hela arbetet. Tryggt hela vägen.\"",rv3n:"J. Nilsson",rv3w:"Villa, Tumba",
+rNote:"Bli en av våra första kunder att lämna ett omdöme.",
+cTag:"Kontakt",cTitle:"Begär en offert",cLead:"Berätta om ditt tak — vi svarar inom 24 timmar med nästa steg.",
+cAddr:"Adress",cPhone:"Telefon",cHrs:"Öppettider",cHrsV:"Mån–fre 07:00–17:00",
+fn:"Namn",fp:"Telefon",fe:"E-post",faddr:"Fastighetens adress",faddrPh:"Gatuadress, Stockholm",fs:"Taktyp",
+fs0:"Välj taktyp…",fs1:"Papptak",fs2:"Betongpannor",fs3:"Tegelpannor",fs4:"Dubbelfalsad plåt",fs5:"Vet ej / annat",fm:"Meddelande",fmph:"Beskriv ditt tak…",fsub:"Skicka förfrågan",fok:"Tack! Vi återkommer inom 24 timmar.",
+fTag:"Takläggare i Norsborg, Stockholm. Tak som håller i decennier.",fcTj:"Tjänster",fcMeny:"Meny",fcHem:"Hem",fcKontakt:"Kontakt",fcHrs:"Mån–fre 07:00–17:00<br>Lör–sön stängt",
+ftr:"© 2026 Takhub Bygg AB · Org.nr —",fLegal1:"Integritetspolicy",fLegal2:"Cookies"
+},
+en:{brandSub:"Bygg AB",nTjanster:"Services",nOmraden:"Areas",nPriser:"Pricing",nArbeten:"Work",nFaq:"FAQ",nKontakt:"Contact",nCta:"Get a quote",
+megaTak:"Roof works",megaTyp:"Roof types",megaMer:"More",megaOmr:"We work in",
+m1:"Re-roofing",m2:"Roof replacement",m3:"Roof repair",m4:"Roof inspection",m5:"Gutters",m6:"Roof safety",m7:"Snow clearing",m8:"Facade (on request)",
+hEyebrow:"Roofing contractor · Norsborg, Stockholm",hT1:"Roofs built",hT2:"to last.",
+hSub:"Takhub Bygg AB re-roofs, replaces and repairs roofs in Norsborg and across Stockholm. Five years on construction sites, a 10-year guarantee and ROT deduction.",
+hCta1:"Get a quote",hCta2:"See pricing",
+st1l:"years on construction sites",st2l:"completed roofs",st3l:"guarantee on work",stYr:" yr",st4l:"deduction applied",
+aTag:"About us",aTitle:"Roofing is our craft.",
+aBody:"Takhub Bygg AB is a roofing contractor in Norsborg, Stockholm — built on <b>five years of work on construction sites</b>. We re-roof and replace roofs on houses and properties, with a 10-year guarantee and ROT deduction. We also do facade work on request.",
+a1:"Vetevägen 3, Norsborg · all of Stockholm",a2:"Svenska · English · Русский",a3:"Fully insured · ROT deduction",
+t1t:"Quality",t1d:"Roofs built for the Swedish climate. A 10-year guarantee on all work.",
+t2t:"Experience",t2d:"Five years on construction sites and 300+ roofs. Tradition combined with modern methods.",
+t3t:"Peace of mind",t3d:"Fully insured, ROT deduction and documented work — you always know what's being done.",
+sTag:"Roof types",sTitle:"Roofs we build",
+c1n:"Felt roof",c1d:"Waterproofing for low-slope roofs. Durable and maintenance-free.",c1p:"From 1,100 kr/m²",
+c2n:"Concrete tiles",c2d:"Classic, cost-effective and very durable.",c2p:"From 1,450 kr/m²",
+c3n:"Clay tiles",c3d:"Natural material with long life and timeless looks.",c3p:"From 1,700 kr/m²",
+c4n:"Standing-seam metal",c4d:"Light, modern and extremely weather-resistant.",c4p:"From 2,350 kr/m²",
+wTag:"Selected work",wTitle:"Recently completed",
+g1:"Metal roof · seam",g2:"Clay tile roof",g3:"Concrete tiles",g4:"House roof",g5:"Metal roof · cabin",g6:"Roofing in progress",
+pTag:"How we work",pTitle:"Four steps to a new roof",
+p1t:"Inspection",p1d:"We visit the property and assess the roof — at no cost.",
+p2t:"Quote",p2d:"Exact prices, materials and timeline. No hidden fees.",
+p3t:"Execution",p3d:"Experienced team, work to plan, continuous updates.",
+p4t:"Guarantee",p4d:"Final inspection and a 10-year written guarantee.",
+prTag:"Pricing",prTitle:"Clear pricing",prFrom:"From",prRot:"after ROT deduction",prBtn:"Get a quote",prPop:"Most popular",
+pr1n:"Felt roof",pr1s:"Low-slope roof",pr1p:"1,100 kr/m²",
+pr2n:"Concrete tiles",pr2s:"Pitched roof",pr2p:"1,450 kr/m²",
+pr3n:"Clay tiles",pr3s:"Natural clay",pr3p:"1,700 kr/m²",
+pr4n:"Standing-seam metal",pr4s:"Premium",pr4p:"2,350 kr/m²",
+prA:"Scaffolding & fall protection",prB:"Removal of existing covering",pr1c:"New welded waterproofing",prD:"New drainage",prE:"Container & cleanup",prF:"New underlay & battens",prG:"Premium clay tiles",prH:"New underlay",prI:"Standing-seam metal 0.6 mm",
+prNote:"Prices are indicative and include labour, materials, travel and removal. An exact quote is given after a free inspection. Facade work — price on request.",
+fqTag:"FAQ",fqTitle:"Frequently asked",
+q1:"What does a new roof cost?",a1q:"It depends on roof type, area and slope. As a guide, a roof replacement is 1,100–2,350 kr/m² after ROT deduction. You get an exact quote after a free inspection.",
+q2:"How long does a roof replacement take?",a2q:"A normal house roof usually takes 1–2 weeks depending on size, weather and roof type. The timeline is clearly stated in the quote.",
+q3:"What guarantee do you offer?",a3q:"We provide a 10-year written guarantee on all work. Materials are also covered by the respective manufacturer's warranty.",
+q4:"Does ROT deduction apply to roofing?",a4q:"Yes. The labour cost of a roof replacement qualifies for a 30% ROT deduction, up to 50,000 kr per person per year. We deduct it directly on the invoice.",
+q5:"Which roof types do you work with?",a5q:"Felt roofs, concrete tiles, clay tiles and standing-seam metal. We help you choose the right material for your property and budget.",
+q6:"How do I book an inspection?",a6q:"Call +46 70 488 79 02 or fill in the form below. We reply within 24 hours and book a free inspection.",
+rTag:"Reviews",rTitle:"What customers say",rRate:"Average · Google",
+rv1:"\"Fast, professional contact, a clear quote and a really clean roof replacement. Recommended.\"",rv1n:"The Andersson family",rv1w:"House, Norsborg",
+rv2:"\"They kept the timeline and cleaned up every day. Very happy with the result.\"",rv2n:"M. Karlsson",rv2w:"Townhouse, Botkyrka",
+rv3:"\"Good price, knowledgeable team and clear documentation throughout. Reassuring all the way.\"",rv3n:"J. Nilsson",rv3w:"House, Tumba",
+rNote:"Be one of our first customers to leave a review.",
+cTag:"Contact",cTitle:"Request a quote",cLead:"Tell us about your roof — we reply within 24 hours with the next step.",
+cAddr:"Address",cPhone:"Phone",cHrs:"Opening hours",cHrsV:"Mon–Fri 07:00–17:00",
+fn:"Name",fp:"Phone",fe:"Email",faddr:"Property address",faddrPh:"Street address, Stockholm",fs:"Roof type",
+fs0:"Choose roof type…",fs1:"Felt roof",fs2:"Concrete tiles",fs3:"Clay tiles",fs4:"Standing-seam metal",fs5:"Not sure / other",fm:"Message",fmph:"Describe your roof…",fsub:"Send request",fok:"Thank you! We'll get back to you within 24 hours.",
+fTag:"Roofing contractor in Norsborg, Stockholm. Roofs built to last.",fcTj:"Services",fcMeny:"Menu",fcHem:"Home",fcKontakt:"Contact",fcHrs:"Mon–Fri 07:00–17:00<br>Sat–Sun closed",
+ftr:"© 2026 Takhub Bygg AB · Reg.no —",fLegal1:"Privacy Policy",fLegal2:"Cookies"
+},
+ru:{brandSub:"Bygg AB",nTjanster:"Услуги",nOmraden:"Районы",nPriser:"Цены",nArbeten:"Работы",nFaq:"FAQ",nKontakt:"Контакты",nCta:"Получить смету",
+megaTak:"Кровельные работы",megaTyp:"Типы крыш",megaMer:"Ещё",megaOmr:"Мы работаем в",
+m1:"Перекрытие крыш",m2:"Замена крыши",m3:"Ремонт кровли",m4:"Осмотр крыши",m5:"Водостоки",m6:"Безопасность",m7:"Уборка снега",m8:"Фасад (по запросу)",
+hEyebrow:"Кровельщик · Норсборг, Стокгольм",hT1:"Кровля на",hT2:"десятилетия.",
+hSub:"Takhub Bygg AB перекрывает, меняет и ремонтирует крыши в Норсборге и по всему Стокгольму. Пять лет на площадках, гарантия 10 лет и ROT-вычет.",
+hCta1:"Получить смету",hCta2:"Смотреть цены",
+st1l:"лет на площадках",st2l:"завершённых крыш",st3l:"гарантия на работы",stYr:" лет",st4l:"вычет применяется",
+aTag:"О нас",aTitle:"Кровля — наше ремесло.",
+aBody:"Takhub Bygg AB — кровельщик из Норсборга, Стокгольм, выросший из <b>пяти лет работы на строительных площадках</b>. Перекрываем и меняем крыши на домах и объектах, с гарантией 10 лет и ROT-вычетом. По запросу выполняем и фасадные работы.",
+a1:"Vetevägen 3, Норсборг · весь Стокгольм",a2:"Svenska · English · Русский",a3:"Застрахованы · ROT-вычет",
+t1t:"Качество",t1d:"Крыши под шведский климат. Гарантия 10 лет на все работы.",
+t2t:"Опыт",t2d:"Пять лет на площадках и 300+ крыш. Традиции и современные методы.",
+t3t:"Надёжность",t3d:"Полная страховка, ROT-вычет и документирование работ — вы всегда знаете, что делается.",
+sTag:"Типы крыш",sTitle:"Какие крыши мы делаем",
+c1n:"Рулонная (papptak)",c1d:"Гидроизоляция для пологих крыш. Прочно и без обслуживания.",c1p:"От 1 100 кр/м²",
+c2n:"Бетонная черепица",c2d:"Классика — экономично и очень прочно.",c2p:"От 1 450 кр/м²",
+c3n:"Керамическая черепица",c3d:"Натуральный материал, долгий срок службы, вне времени.",c3p:"От 1 700 кр/м²",
+c4n:"Фальцевая жесть",c4d:"Лёгкая, современная и крайне устойчивая к погоде.",c4p:"От 2 350 кр/м²",
+wTag:"Избранные работы",wTitle:"Недавно завершённые",
+g1:"Фальцевая кровля",g2:"Керамическая черепица",g3:"Бетонная черепица",g4:"Крыша виллы",g5:"Фальц · дача",g6:"Кровельные работы",
+pTag:"Как мы работаем",pTitle:"Четыре шага до новой крыши",
+p1t:"Осмотр",p1d:"Приезжаем на объект и оцениваем крышу — бесплатно.",
+p2t:"Смета",p2d:"Точные цены, материалы и сроки. Без скрытых платежей.",
+p3t:"Выполнение",p3d:"Опытная команда, работа по плану, регулярные отчёты.",
+p4t:"Гарантия",p4d:"Финальный осмотр и письменная гарантия 10 лет.",
+prTag:"Цены",prTitle:"Прозрачные цены",prFrom:"От",prRot:"после ROT-вычета",prBtn:"Получить смету",prPop:"Популярнее всего",
+pr1n:"Рулонная кровля",pr1s:"Пологая крыша",pr1p:"1 100 кр/м²",
+pr2n:"Бетонная черепица",pr2s:"Скатная крыша",pr2p:"1 450 кр/м²",
+pr3n:"Керамическая черепица",pr3s:"Натуральная глина",pr3p:"1 700 кр/м²",
+pr4n:"Фальцевая жесть",pr4s:"Премиум",pr4p:"2 350 кр/м²",
+prA:"Леса и защита от падения",prB:"Демонтаж старого покрытия",pr1c:"Новый гидрослой, сварка",prD:"Новый водоотвод",prE:"Контейнер и уборка",prF:"Новая подкладка и обрешётка",prG:"Черепица премиум-класса",prH:"Новая подкладка",prI:"Фальцевая жесть 0,6 мм",
+prNote:"Цены ориентировочные и включают работу, материалы, выезд и вывоз. Точная смета — после бесплатного осмотра. Фасадные работы — по запросу.",
+fqTag:"FAQ",fqTitle:"Частые вопросы",
+q1:"Сколько стоит замена крыши?",a1q:"Зависит от типа кровли, площади и уклона. Ориентировочно — 1 100–2 350 кр/м² после ROT-вычета. Точную смету дадим после бесплатного осмотра.",
+q2:"Сколько длится замена крыши?",a2q:"Обычная крыша дома — чаще всего 1–2 недели в зависимости от размера, погоды и типа. Сроки чётко указаны в смете.",
+q3:"Какая у вас гарантия?",a3q:"Письменная гарантия 10 лет на выполненные работы. На материалы также действует гарантия производителя.",
+q4:"Действует ли ROT-вычет на кровлю?",a4q:"Да. Работа по замене крыши даёт право на ROT-вычет 30%, до 50 000 кр на человека в год. Вычитаем сразу в счёте.",
+q5:"С какими типами крыш вы работаете?",a5q:"Рулонная, бетонная черепица, керамическая черепица и фальцевая жесть. Поможем подобрать материал под объект и бюджет.",
+q6:"Как записаться на осмотр?",a6q:"Позвоните +46 70 488 79 02 или заполните форму ниже. Ответим в течение 24 часов и согласуем бесплатный осмотр.",
+rTag:"Отзывы",rTitle:"Что говорят клиенты",rRate:"Средняя оценка · Google",
+rv1:"«Быстрый и профессиональный контакт, понятная смета и аккуратная замена крыши. Рекомендую.»",rv1n:"Семья Андерссон",rv1w:"Вилла, Норсборг",
+rv2:"«Уложились в срок и убирали за собой каждый день. Результатом очень доволен.»",rv2n:"М. Карлссон",rv2w:"Таунхаус, Ботчюрка",
+rv3:"«Хорошая цена, грамотная команда и понятная документация на всех этапах. Спокойно от и до.»",rv3n:"Й. Нильссон",rv3w:"Вилла, Тумба",
+rNote:"Станьте одним из первых клиентов, кто оставит отзыв.",
+cTag:"Контакты",cTitle:"Запросить смету",cLead:"Расскажите о вашей крыше — ответим в течение 24 часов.",
+cAddr:"Адрес",cPhone:"Телефон",cHrs:"Часы работы",cHrsV:"Пн–Пт 07:00–17:00",
+fn:"Имя",fp:"Телефон",fe:"E-mail",faddr:"Адрес объекта",faddrPh:"Улица, Стокгольм",fs:"Тип крыши",
+fs0:"Выберите тип…",fs1:"Рулонная",fs2:"Бетонная черепица",fs3:"Керамическая черепица",fs4:"Фальцевая жесть",fs5:"Не знаю / другое",fm:"Сообщение",fmph:"Опишите вашу крышу…",fsub:"Отправить запрос",fok:"Спасибо! Свяжемся с вами в течение 24 часов.",
+fTag:"Кровельщик в Норсборге, Стокгольм. Кровля на десятилетия.",fcTj:"Услуги",fcMeny:"Меню",fcHem:"Главная",fcKontakt:"Контакты",fcHrs:"Пн–Пт 07:00–17:00<br>Сб–Вс закрыто",
+ftr:"© 2026 Takhub Bygg AB · Орг.№ —",fLegal1:"Политика конфиденциальности",fLegal2:"Cookies"
+}};
+
+let lang='sv';
+function setLang(l){
+  lang=l;const t=T[l];document.documentElement.lang=l;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(t[k]===undefined)return;if(k==='aBody'||k==='fcHrs')el.innerHTML=t[k];else el.textContent=t[k];});
+  document.querySelectorAll('[data-iph]').forEach(el=>{const k=el.dataset.iph;if(t[k])el.placeholder=t[k];});
+  document.querySelectorAll('.lb').forEach(b=>b.classList.toggle('a',b.dataset.lang===l));
+}
+document.querySelectorAll('.lb').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
+
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* custom cursor + glow */
+(function(){
+  if(reduce||!matchMedia('(pointer:fine)').matches)return;
+  const dot=document.getElementById('cdot'),ring=document.getElementById('cring'),glow=document.getElementById('cglow');
+  document.body.classList.add('cursor-on');
+  let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my,gx=mx,gy=my;
+  addEventListener('pointermove',e=>{mx=e.clientX;my=e.clientY;dot.style.transform='translate('+mx+'px,'+my+'px)';},{passive:true});
+  (function loop(){rx+=(mx-rx)*.18;ry+=(my-ry)*.18;gx+=(mx-gx)*.08;gy+=(my-gy)*.08;
+    ring.style.transform='translate('+rx+'px,'+ry+'px)';glow.style.transform='translate('+gx+'px,'+gy+'px)';requestAnimationFrame(loop);})();
+  document.querySelectorAll('a,button,summary,.scard,.work,.pcard,input,select,textarea').forEach(el=>{
+    el.addEventListener('mouseenter',()=>ring.classList.add('big'));el.addEventListener('mouseleave',()=>ring.classList.remove('big'));});
+})();
+
+/* hero video — desktop only */
+(function(){var v=document.getElementById('heroVid');if(v&&innerWidth>820&&!reduce){var s=document.createElement('source');s.src='images/hero-drone.mp4';s.type='video/mp4';v.appendChild(s);v.load();var p=v.play();if(p)p.catch(function(){});}})();
+
+let lenis=null;
+if(!reduce&&window.Lenis){lenis=new Lenis({duration:1.15,easing:t=>Math.min(1,1.001-Math.pow(2,-10*t)),smoothWheel:true});function raf(time){lenis.raf(time);requestAnimationFrame(raf);}requestAnimationFrame(raf);}
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id==='#')return;const el=id==='#top'?document.body:document.querySelector(id);if(!el)return;e.preventDefault();if(lenis)lenis.scrollTo(el,{offset:0});else el.scrollIntoView({behavior:reduce?'auto':'smooth'});});});
+
+const pxEls=[...document.querySelectorAll('[data-speed]')];
+function frame(){
+  const y=window.scrollY,vh=window.innerHeight,doc=document.documentElement.scrollHeight-vh;
+  document.getElementById('prog').style.transform='scaleX('+(doc>0?y/doc:0)+')';
+  document.getElementById('nav').classList.toggle('s',y>60);
+  if(!reduce){for(const el of pxEls){const host=el.closest('.hero,.about-media,.process')||el.parentElement;const r=host.getBoundingClientRect();const off=(r.top+r.height/2)-vh/2;el.style.transform='translate3d(0,'+(-off*parseFloat(el.dataset.speed))+'px,0)';}}
+}
+window.addEventListener('scroll',frame,{passive:true});window.addEventListener('resize',frame);frame();
+window.addEventListener('load',()=>document.body.classList.add('loaded'));
+
+(function(){const track=document.getElementById('caroTrack');if(!track)return;const step=()=>Math.min(track.clientWidth*0.8,420);
+  document.getElementById('caroNext').addEventListener('click',()=>track.scrollBy({left:step(),behavior:'smooth'}));
+  document.getElementById('caroPrev').addEventListener('click',()=>track.scrollBy({left:-step(),behavior:'smooth'}));})();
+
+const counted=new Set();
+function count(el){const target=+el.dataset.count,dur=1700,t0=performance.now();(function s(now){const p=Math.min((now-t0)/dur,1),v=Math.round((1-Math.pow(1-p,3))*target);el.textContent=v;if(p<1)requestAnimationFrame(s);})(t0);}
+const ro=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('v');ro.unobserve(e.target);}})},{threshold:.16});
+document.querySelectorAll('.r').forEach(el=>ro.observe(el));
+const so=new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;e.target.querySelectorAll('[data-count]').forEach(c=>{if(!counted.has(c)){counted.add(c);count(c);}});})},{threshold:.5});
+document.querySelectorAll('.stat').forEach(el=>so.observe(el));
+
+document.getElementById('cform').addEventListener('submit',e=>{e.preventDefault();e.target.style.display='none';const ok=document.getElementById('ok');ok.style.display='block';ok.textContent=T[lang].fok;});
+</script>
+
+
+</body></html>
